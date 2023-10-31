@@ -14,7 +14,7 @@
         <div class="carousel-inner ">
             <div class="carousel-item active">
                 <img src="{{ asset('') }}front/images/slider/slider-1.png" class="d-block w-100" alt="..." >
-                <div class="carousel-caption d-none d-md-block mt--4 half-black">
+                <div class="carousel-caption d-md-block mt--4 half-black">
                 <h5 class="fw-bold">SELAMAT DATANG DI SILAPEM</h5>
                 <h1>Sistem Informasi Layanan Kepemudaan</h1>
                 <!-- <p class="text-white">Lorem ipsum dolor sit amet consectetuer adipiscing phasellus hendrerit lorem dolor sit amet
@@ -25,7 +25,7 @@
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('') }}front/images/slider/slider-3.png" class="d-block w-100" alt="..." >
-                <div class="carousel-caption d-none d-md-block mt--4 half-black">
+                <div class="carousel-caption d-md-block mt--4 half-black">
                 <h5 class="fw-bold">SELAMAT DATANG DI SILAPEM</h5>
                 <h1>Sistem Informasi Layanan Kepemudaan</h1>
                 <!--<p>Lorem ipsum dolor sit amet consectetuer adipiscing phasellus hendrerit lorem dolor sit amet
@@ -36,7 +36,7 @@
             </div>
             <div class="carousel-item">
                 <img src="{{ asset('') }}front/images/slider/slider-2.png" class="d-block w-100" alt="..." >
-                <div class="carousel-caption d-none d-md-block mt--4 half-black">
+                <div class="carousel-caption d-md-block mt--4 half-black">
                 <h5 class="fw-bold">SELAMAT DATANG DI SILAPEM</h5>
                 <h1>Sistem Informasi Layanan Kepemudaan</h1>
                 <!--<p>Lorem ipsum dolor sit amet consectetuer adipiscing phasellus hendrerit lorem dolor sit amet

@@ -93,3 +93,26 @@
     top: 0;
     z-index: 0
 } */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .carousel-caption {
+        bottom: 5rem!important;
+    }
+    .carousel-caption h5{
+        font-size:18px!important;
+    }
+    .carousel-caption h1{
+        font-size:22px!important;
+    }
+}
+@media only screen and (max-width:1199px) {
+    .carousel-caption {
+        bottom: 2.5rem!important;
+    }
+    .carousel-caption h5{
+        font-size:12px!important;
+    }
+    .carousel-caption h1{
+        font-size:18px!important;
+    }
+}

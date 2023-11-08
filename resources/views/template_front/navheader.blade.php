@@ -51,7 +51,7 @@
 					<div class="menu-sidebar">
 						<ul>
 							<li><button class="popup-button"><i class="fas fa-search"></i></button></li>
-							<li><a class="default-button" href="/daftar">Daftar</a></li>
+							<li><a class="default-button" href="/sign-in">Masuk</a></li>
 						</ul>
 					</div>
 				</div>

@@ -30,11 +30,11 @@ use App\Http\Controllers\front\Berita;
 Route::get('/', [Home::class, 'index']);
 
 //FRONT WEBSITE
-Route::resource('/daftar','Daftar')->except(['show']);
-Route::get('/daftar', [Daftar::class, 'index'])->name('daftar');
+Route::resource('/sign-up','Daftar')->except(['show']);
+Route::get('/sign-up', [Daftar::class, 'index'])->name('daftar');
 
-Route::resource('/login','Login')->except(['show']);
-Route::get('/login', [Login::class, 'index'])->name('login');
+Route::resource('/sign-in','Login')->except(['show']);
+Route::get('/sign-in', [Login::class, 'index'])->name('login');
 
 Route::resource('/home','Home')->except(['show']);
 Route::get('/home', [Home::class, 'index'])->name('home');

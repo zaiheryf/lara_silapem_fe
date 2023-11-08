@@ -4,7 +4,14 @@
 .card-process{
     min-height:300px;
 }
-
+.bg-img-two {
+    position: relative;
+    background-size: cover;
+    background-position: top center left;
+    background-repeat: no-repeat;
+    background-image: url(../images/laptop-and-book-scaled.jpg);
+    /* background-attachment: fixed; */
+}
 .bg-img-one {
     position: relative;
     background-size: cover;

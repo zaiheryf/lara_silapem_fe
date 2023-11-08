@@ -1,14 +1,14 @@
 @extends('template_front.layout')
 
 @section('content')
-@section('title', 'Daftar')   
+@section('title', 'Login')   
 <!-- <section class="uni-banner">
    <div class="container">
       <div class="uni-banner-text-area">
-         <h1>Daftar</h1>
+         <h1>Login</h1>
          <ul>
             <li><a href="/">Home</a></li>
-            <li>Daftar</li>
+            <li>Login</li>
          </ul>
       </div>
    </div>
@@ -22,15 +22,16 @@
             <div class="col-lg-4">
                <h3>Login Silapem </h3>
                <div class="contact-form-text-area">
-                  <form id="FormDaftar">
+                  <form id="FormDaftar" method="POST" action="/sign-in">
+                     @csrf
                      <div class="row align-items-center">
                         <div class="col-md-12 col-sm-6 col-12">
                            <div class="form-group">
-                              <input type="text" class="form-control form-control-sm" placeholder="Username" id="username" required="" data-error="Mohon input username">
+                              <input type="email" name="email" class="form-control form-control-sm" placeholder="Email" id="email" required data-error="Mohon input email">
                               
                            </div>
                            <div class="form-group">
-                              <input type="password" class="form-control form-control-sm" placeholder="Password" id="password" required="" data-error="Mohon input password">
+                              <input type="password" name="password" class="form-control form-control-sm" placeholder="Password" id="password" required data-error="Mohon input password">
                               
                            </div>
                         </div>
@@ -40,7 +41,7 @@
                            <button class="default-button" type="submit"><span>Login</span></button>
                            <br><br>
                            <small>belum punya akun ? </small>
-                           <a href="/daftar" class="btn btn-dark w-100 mt-3" ><span>Daftar</span></a>
+                           <a href="/sign-up" class="btn btn-dark w-100 mt-3" ><span>Daftar</span></a>
                            <div id="msgSubmit" class="h6 text-center hidden"></div>
                            <div class="clearfix"></div>
                         </div>
@@ -48,10 +49,8 @@
                   </form>
                </div>
             </div>
-            <div class="col-lg-4">
-               <div class="pr-20">
-                  <img src="{{ asset('') }}front/images/laptop-and-book-scaled.jpg" alt="image" class="fit-object" style="width:100%;height:600px;">
-               </div>
+            <div class="col-lg-8 bg-img-two">
+               
             </div>
          </div>
       </div>
